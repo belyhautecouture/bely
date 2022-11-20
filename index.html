@@ -662,9 +662,10 @@ https://lh3.googleusercontent.com/d/1ioUFlSGCh4Y4Xb_xE5g3gG2i_ZmkIIaa=s720-tmp.j
 https://lh3.googleusercontent.com/d/1tmEKJc-905t8dBFpQqg4BACLGYLFffgQ=s720-tmp.jpg
 https://lh3.googleusercontent.com/d/1vK-sz34TxebRxeLKFbE4nOLMva3jRT9v=s720-tmp.jpg
 `
-links.trim().replace(/\r/g,"").split('\n').forEach(item=>{
+links.trim().replace(/\r/g,"").split('\n').forEach((item,index)=>{
 
-  document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`)
+  if (index<8) document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`)
+    if (index>=8) setTimeout(()=>document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`),2000)
 })
 </script>
 <script>
