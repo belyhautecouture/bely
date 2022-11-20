@@ -664,7 +664,7 @@ https://lh3.googleusercontent.com/d/1vK-sz34TxebRxeLKFbE4nOLMva3jRT9v=s720-tmp.j
 `
 links.trim().replace(/\r/g,"").split('\n').forEach((item,index)=>{
 
-  if (index<8) document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`)
+  if (index<20) document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`)
   //  if (index>=8) setTimeout(()=>document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`),2000)
 })
 </script>
