@@ -1,1 +1,4 @@
 a:link,ul.site-nav,#ega-salebox,h3, .status_name.product-sku{color:black !important}
+svg {
+    color : "black" !important;
+}
