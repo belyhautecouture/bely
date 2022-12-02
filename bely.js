@@ -9,3 +9,4 @@ document.querySelector('.zalo.link>img')?.setAttribute('src','https://belyhautec
    document.querySelector('[alt="Phương thức thanh toán"]')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/payment.png')
   document.querySelector('.product-promotion__heading.rounded-sm.d-inline-flex.align-items-center img')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/gift.png')
 }
+)
