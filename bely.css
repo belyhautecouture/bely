@@ -1,6 +1,6 @@
 #ega-salebox,h3, .status_name.product-sku, .status_name a {color:black !important}
 
-.mini-cart>a .count_item.count_item_pr, .twitter, .facebook, .pinterest, .messenger  {background:black  !important}
+.mini-cart>a .count_item.count_item_pr, .twitter, .facebook, .pinterest, .messenger, #ega-cart-count  {background:black  !important}
 
 .product-promotion {
 border: 3px dashed #000 !important
