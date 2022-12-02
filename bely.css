@@ -1,3 +1,7 @@
 #ega-salebox,h3, .status_name.product-sku{color:black !important}
 
 .mini-cart>a .count_item.count_item_pr {background:black  !important}
+
+.product-promotion {
+border: 3px dashed #000 !important
+}
