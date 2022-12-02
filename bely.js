@@ -1,4 +1,4 @@
-window.onload = ()=>{
+window.addEventListener("load", () => {
 console.log("window.onload")
 document.querySelector('.facebook.link>img')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/facebook.png')
 document.querySelector('.zalo.link>img')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/zalo.png');
