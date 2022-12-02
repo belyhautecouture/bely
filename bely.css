@@ -1,9 +1,2 @@
 a:link,ul.site-nav,#ega-salebox,h3, .status_name.product-sku{color:black !important}
-svg {
-    fill : "black";
-    
-}
-    svg {
-    filter: invert(1);
-    // filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
-}
+
