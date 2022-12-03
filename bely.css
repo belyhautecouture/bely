@@ -26,6 +26,6 @@ border: 3px dashed #000 !important
     width: 100%!important;
 }
 }
-.item_product_main .item-color-chosen .color-dot {box-shadow: 0 0 0 1px #999!important}
+.item_product_main .item-color-chosen .color-dot,#swatch-0-trang {box-shadow: 0 0 0 1px #999!important}
 
 .js-seemore.ega-pro__seemore.text-center.pos-relative.mt-3 {display:none !important}
