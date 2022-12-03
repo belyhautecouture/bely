@@ -23,7 +23,7 @@ border: 3px dashed #000 !important
   max-width: 33.333333%!important;
 }
   .pos-relative.embed-responsive[class*=embed-responsive-] img {
-    width: 100%!important;
+    width: 95%!important;
 }
 }
 .item_product_main .item-color-chosen .color-dot {box-shadow: 0 0 0 1px #999}
