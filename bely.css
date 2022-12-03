@@ -1,7 +1,7 @@
-#ega-salebox,h3, .status_name.product-sku, a.text-primary {color:black !important}
+#ega-salebox,h3, .status_name.product-sku, a.text-primary, .product-promotion__heading, .vendor_.status_name, .sku_.status_name {color:black !important}
 
 .mini-cart>a .count_item.count_item_pr, .twitter, .facebook:not(.link), .pinterest, .messenger, #ega-cart-count,
-.step-footer-continue-btn.btn, .product-promotion__heading, .vendor_.status_name, .sku_.status_name
+.step-footer-continue-btn.btn
 {background:black  !important}
 
 .product-promotion {
