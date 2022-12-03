@@ -1,4 +1,4 @@
-#ega-salebox,h3, .status_name.product-sku, a.text-primary, .product-promotion__heading, .vendor_.status_name, .sku_.status_name {color:black !important}
+#ega-salebox,h3, .status_name.product-sku, a.text-primary, .product-promotion__heading, .vendor_.status_name, .sku_.status_name,.coupon-toggle .coupon-toggle-btn {color:black !important}
 
 .mini-cart>a .count_item.count_item_pr, .twitter, .facebook:not(.link), .pinterest, .messenger, #ega-cart-count,
 .step-footer-continue-btn.btn
