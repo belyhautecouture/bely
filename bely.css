@@ -31,3 +31,5 @@ border: 3px dashed #000 !important
 .js-seemore.ega-pro__seemore.text-center.pos-relative.mt-3 {display:none !important}
 
 .btn.btn_add_cart.btn-cart.add_to_cart.mt-0 {font-size:14px}
+
+h3.modal-title svg {fill:black !important}
