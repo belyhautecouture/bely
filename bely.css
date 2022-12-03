@@ -15,7 +15,7 @@ border: 3px dashed #000 !important
 .radio-wrapper .radio-input .input-radio:checked, .checkbox-wrapper .checkbox-input .input-checkbox:checked{    box-shadow: 0 0 0 10px #000 inset !important;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 577px) {
   .row.product-list.content-col > * { 
   -webkit-box-flex: 0;
       -ms-flex: 0 0 33.333333% !important;
