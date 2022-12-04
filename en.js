@@ -4,6 +4,7 @@ var banner = document.querySelector('.banner');
 banner?.insertAdjacentElement('beforeBegin',btn);
 
 btn.setAttribute('onclick',"changeLanguage")
+btn.style.padding = '15px';
 
 var is_vietnam = document.querySelector('#is_vietnam')
 function changeLanguage(){
