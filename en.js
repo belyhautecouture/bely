@@ -1,7 +1,7 @@
 let btn = document.createElement("button");
 btn.innerText = "ENGLISH";
 let banner = document.querySelector('.banner');
-banner?.insertBefore(btn,banner);
+banner?.insertAdjacentElement(btn,banner);
 
 btn.setAttribute('onclick',"changeLanguage")
 
