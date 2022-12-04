@@ -32,4 +32,7 @@ border: 3px dashed #000 !important
 
 .btn.btn_add_cart.btn-cart.add_to_cart.mt-0 {font-size:14px}
 
+.btn.btn_add_cart.btn-cart.add_to_cart {font-size:14px}
+
+
 h3.modal-title>svg>path,h3.modal-title>svg>path:nth-child(2) {fill:black !important}
