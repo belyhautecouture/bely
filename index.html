@@ -1260,7 +1260,8 @@ https://lh3.googleusercontent.com/d/191Mu7_dgrPD19awN_vX-iKrnse2u_bKa=s720-tmp.j
 
 
 `
-links.trim().replace(/\r/g,"").split('\n').forEach((item,index)=>{
+const PAGENUMBER = links.trim().replace(/\r/g,"").replace(/\n+/g,'\n').split('\n').length;
+links.trim().replace(/\r/g,"").replace(/\n+/g,'\n').split('\n').forEach((item,index)=>{
 
   if (index<39) document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`)
   //  if (index>=8) setTimeout(()=>document.querySelector("#imageLinks").innerHTML+=(`<div class="grid--item"><img src="${item}" /></div>`),2000)
@@ -1274,7 +1275,7 @@ const nextButton = document.getElementById("next-button");
 const prevButton = document.getElementById("prev-button");
 
 const paginationLimit = 20;
-const pageCount = Math.ceil(links.length / paginationLimit);
+const pageCount = Math.ceil(PAGENUMBER / paginationLimit);
 let currentPage = 1;
 
 const disableButton = (button) => {
