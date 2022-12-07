@@ -10,3 +10,5 @@
 //   document.querySelector('.product-promotion__heading.rounded-sm.d-inline-flex.align-items-center img')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/gift.png')
 // }
 // )
+if (window.innerWidth<=991&&window.location.href.indexOf('she-wearbely')>0){document.querySelector('.heading-bar').setAttribute('style','display:none)}
+if (window.innerWidth<=991&&window.location.href.indexOf('best-friends-forever')>0){document.querySelector('.heading-bar').setAttribute('style','display:none)}
