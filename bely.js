@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 // // //   document.querySelector('[alt="Phương thức thanh toán"]')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/payment.png')
 //   document.querySelector('.product-promotion__heading.rounded-sm.d-inline-flex.align-items-center img')?.setAttribute('src','https://belyhautecouture.github.io/bely/img/gift.png')
 
-if (window.innerWidth<=991&&window.location.href.test(/she-wearbely|best-friends-forever/)==true){document.querySelector('.heading-bar').setAttribute('style','display:none')}
+if (window.innerWidth<=991&&window.location.href.search(/she-wearbely|best-friends-forever/)>0){document.querySelector('.heading-bar').setAttribute('style','display:none')}
 // if (window.innerWidth<=991&&window.location.href.indexOf('best-friends-forever')>0){document.querySelector('.heading-bar').setAttribute('style','display:none')}
 }
 )
